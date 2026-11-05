@@ -1,0 +1,25 @@
+# Never push downloaded match data, extracted caches, models or predictions.
+data/
+models/
+outputs/
+*.xml
+*.parquet
+*.joblib
+*.pkl
+*.mp4
+*.csv
+
+# Downloaded third-party metric; obtained at run time from official GitHub.
+evaluation/possession_metrics.py
+
+# Developer machine / environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.vscode/
+.idea/
+.pytest_cache/
+.DS_Store
